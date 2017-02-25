@@ -1,0 +1,22 @@
+Avg TCP Flow Duration(sec),82.844
+Avg UDP Flow Duration(sec),12.148
+Avg HTTP Flow Duration(sec),61.559
+Avg SSL Flow Duration(sec),121.868
+Avg HTTP Flow Size in Bytes,48815.766
+Avg SSL Flow Size in Bytes,20595.930
+Total TCP Flow Duration(sec),33800.418
+Total UDP Flow Duration(sec),4956.398
+Total HTTP Flow Duration(sec),16251.479
+Total SSL Flow Duration(sec),17548.932
+Total TCP flows,408
+Total UDP flows,371
+Total HTTP flows,264
+Total SSL flows,144
+Total TCP Bytes,15853176
+Total UDP Bytes,223232
+Total HTTP Bytes,12887362
+Total SSL Bytes,2965814
+HTTP Flows / Gbps,1540.799 
+SSL Flows / Gbps,840.436
+Total Flows / Gbps,4546.523
+Total SSL Certs / Gbps,659.509

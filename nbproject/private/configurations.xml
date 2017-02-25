@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="autom4te.cache">
+      </df>
+      <df name="doc">
+      </df>
+      <df name="example">
+        <df name=".deps">
+        </df>
+        <df name=".libs">
+        </df>
+        <df name="DP flows,%llu
+">
+        </df>
+        <df name="s,%llu
+">
+        </df>
+        <df name="Win32">
+          <df name="Debug">
+          </df>
+          <df name="pcapExample">
+            <df name="Debug">
+            </df>
+            <in>pcapExample.cpp</in>
+          </df>
+        </df>
+        <in>'</in>
+        <in>ndpiReader.c</in>
+        <in>ndpiReader_11_5_15_removed vlan from flowV2.c</in>
+        <in>ndpiReader_12_5_15_vlan fix + TCP_UDP frag.c</in>
+        <in>ps_analyzer_octopus.x.c</in>
+        <in>ps_analyzer_octopus_1_port.x.c</in>
+        <in>ps_analyzer_octopus_2_ports.x.c</in>
+      </df>
+      <df name="m4">
+      </df>
+      <df name="ndpi-netfilter">
+      </df>
+      <df name="src">
+        <df name="include">
+          <in>linux_compat.h</in>
+          <in>ndpi_api.h</in>
+          <in>ndpi_define.h</in>
+          <in>ndpi_main.h</in>
+          <in>ndpi_protocol_ids.h</in>
+          <in>ndpi_protocols.h</in>
+          <in>ndpi_typedefs.h</in>
+          <in>ndpi_unix.h</in>
+          <in>ndpi_win32.h</in>
+        </df>
+        <df name="lib">
+          <df name=".deps">
+          </df>
+          <df name=".libs">
+          </df>
+          <df name="protocols">
+            <df name=".deps">
+            </df>
+            <df name=".libs">
+            </df>
+            <df name="attic">
+              <in>flash.c</in>
+              <in>ftp.c</in>
+              <in>manolito.c</in>
+              <in>popo.c</in>
+              <in>secondlife.c</in>
+            </df>
+            <in>afp.c</in>
+            <in>aimini.c</in>
+            <in>applejuice.c</in>
+            <in>armagetron.c</in>
+            <in>ayiya.c</in>
+            <in>battlefield.c</in>
+            <in>bgp.c</in>
+            <in>bittorrent.c</in>
+            <in>btlib.c</in>
+            <in>btlib.h</in>
+            <in>ciscovpn.c</in>
+            <in>citrix.c</in>
+            <in>collectd.c</in>
+            <in>corba.c</in>
+            <in>crossfire.c</in>
+            <in>dcerpc.c</in>
+            <in>dhcp.c</in>
+            <in>dhcpv6.c</in>
+            <in>directconnect.c</in>
+            <in>directdownloadlink.c</in>
+            <in>dns.c</in>
+            <in>dofus.c</in>
+            <in>dropbox.c</in>
+            <in>edonkey.c</in>
+            <in>fasttrack.c</in>
+            <in>fiesta.c</in>
+            <in>filetopia.c</in>
+            <in>florensia.c</in>
+            <in>ftp_control.c</in>
+            <in>ftp_data.c</in>
+            <in>gnutella.c</in>
+            <in>gtp.c</in>
+            <in>guildwars.c</in>
+            <in>h323.c</in>
+            <in>halflife2_and_mods.c</in>
+            <in>http.c</in>
+            <in>http_activesync.c</in>
+            <in>iax.c</in>
+            <in>icecast.c</in>
+            <in>imesh.c</in>
+            <in>ipp.c</in>
+            <in>irc.c</in>
+            <in>jabber.c</in>
+            <in>kerberos.c</in>
+            <in>kontiki.c</in>
+            <in>ldap.c</in>
+            <in>lotus_notes.c</in>
+            <in>mail_imap.c</in>
+            <in>mail_pop.c</in>
+            <in>mail_smtp.c</in>
+            <in>maplestory.c</in>
+            <in>mdns.c</in>
+            <in>meebo.c</in>
+            <in>megaco.c</in>
+            <in>mgcp.c</in>
+            <in>mms.c</in>
+            <in>msn.c</in>
+            <in>mssql.c</in>
+            <in>mysql.c</in>
+            <in>netbios.c</in>
+            <in>netflow.c</in>
+            <in>nfs.c</in>
+            <in>noe.c</in>
+            <in>non_tcp_udp.c</in>
+            <in>ntp.c</in>
+            <in>openft.c</in>
+            <in>openvpn.c</in>
+            <in>oracle.c</in>
+            <in>oscar.c</in>
+            <in>pando.c</in>
+            <in>pcanywhere.c</in>
+            <in>postgres.c</in>
+            <in>pplive.c</in>
+            <in>ppstream.c</in>
+            <in>pptp.c</in>
+            <in>qq.c</in>
+            <in>quake.c</in>
+            <in>radius.c</in>
+            <in>rdp.c</in>
+            <in>redis.c</in>
+            <in>rsync.c</in>
+            <in>rtcp.c</in>
+            <in>rtmp.c</in>
+            <in>rtp.c</in>
+            <in>rtsp.c</in>
+            <in>sflow.c</in>
+            <in>shoutcast.c</in>
+            <in>sip.c</in>
+            <in>skinny.c</in>
+            <in>skype.c</in>
+            <in>smb.c</in>
+            <in>snmp.c</in>
+            <in>socks4.c</in>
+            <in>socks5.c</in>
+            <in>socrates.c</in>
+            <in>sopcast.c</in>
+            <in>soulseek.c</in>
+            <in>spotify.c</in>
+            <in>ssdp.c</in>
+            <in>ssh.c</in>
+            <in>ssl.c</in>
+            <in>stealthnet.c</in>
+            <in>steam.c</in>
+            <in>stun.c</in>
+            <in>syslog.c</in>
+            <in>tcp_udp.c</in>
+            <in>tds.c</in>
+            <in>teamspeak.c</in>
+            <in>teamviewer.c</in>
+            <in>telegram.c</in>
+            <in>telnet.c</in>
+            <in>tftp.c</in>
+            <in>thunder.c</in>
+            <in>tor.c</in>
+            <in>tvants.c</in>
+            <in>tvuplayer.c</in>
+            <in>twitter.c</in>
+            <in>usenet.c</in>
+            <in>veohtv.c</in>
+            <in>vhua.c</in>
+            <in>viber.c</in>
+            <in>vmware.c</in>
+            <in>vnc.c</in>
+            <in>warcraft3.c</in>
+            <in>whoisdas.c</in>
+            <in>winmx.c</in>
+            <in>world_of_kung_fu.c</in>
+            <in>world_of_warcraft.c</in>
+            <in>xbox.c</in>
+            <in>xdmcp.c</in>
+            <in>yahoo.c</in>
+            <in>zattoo.c</in>
+            <in>zmq.c</in>
+          </df>
+          <df name="third_party">
+            <df name="include">
+              <in>actypes.h</in>
+              <in>ahocorasick.h</in>
+              <in>node.h</in>
+              <in>sort.h</in>
+            </df>
+            <df name="src">
+              <df name=".deps">
+              </df>
+              <df name=".libs">
+              </df>
+              <in>ahocorasick.c</in>
+              <in>node.c</in>
+              <in>sort.c</in>
+            </df>
+          </df>
+          <in>ndpi_content_match.c.inc</in>
+          <in>ndpi_main.c</in>
+        </df>
+      </df>
+      <in>config.h</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

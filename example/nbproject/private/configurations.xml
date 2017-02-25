@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name=".deps">
+      </df>
+      <df name=".libs">
+      </df>
+      <df name="Win32">
+        <df name="Debug">
+        </df>
+        <df name="pcapExample">
+          <df name="Debug">
+          </df>
+          <in>pcapExample.cpp</in>
+        </df>
+      </df>
+      <in>'</in>
+      <in>ndpiReader.c</in>
+      <in>ndpiReader_11_5_15_removed vlan from flowV2.c</in>
+      <in>ndpiReader_12_5_15_vlan fix + TCP_UDP frag.c</in>
+      <in>ndpiReader_17_5_15_v2.c</in>
+      <in>ndpiReader_28_08_fixedgbpsdtats.c</in>
+      <in>ndpiReader_get.c</in>
+      <in>ndpiReader_get_get_per_flow.c</in>
+      <in>ndpiReader_nst_full_traffic.c</in>
+      <in>ndpiReader_nst_full_traffic_with_cert.c</in>
+      <in>ps_analyzer_octopus.x.c</in>
+      <in>ps_analyzer_octopus_1_port.x.c</in>
+      <in>ps_analyzer_octopus_2_ports.x.c</in>
+      <in>ssl.c</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" -i /root/general_surfing_big.pcap</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}" -i /root/general_surfing_big.pcap</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

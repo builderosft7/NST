@@ -1,0 +1,8 @@
+K 10
+svn:ignore
+V 67
+libndpi_la-sort.Plo
+libndpi_la-ahocorasick.Plo
+libndpi_la-node.Plo
+
+END

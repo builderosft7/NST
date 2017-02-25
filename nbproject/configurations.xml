@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="example">
+        <df name="Win32">
+          <df name="pcapExample">
+            <in>pcapExample.cpp</in>
+          </df>
+        </df>
+        <in>ndpiReader.c</in>
+        <in>ndpiReader_11_5_15_removed vlan from flowV2.c</in>
+        <in>ndpiReader_12_5_15_vlan fix + TCP_UDP frag.c</in>
+        <in>ps_analyzer_octopus.x.c</in>
+        <in>ps_analyzer_octopus_1_port.x.c</in>
+        <in>ps_analyzer_octopus_2_ports.x.c</in>
+      </df>
+      <df name="src">
+        <df name="lib">
+          <df name="protocols">
+            <df name="attic">
+              <in>flash.c</in>
+              <in>ftp.c</in>
+              <in>manolito.c</in>
+              <in>popo.c</in>
+              <in>secondlife.c</in>
+            </df>
+            <in>afp.c</in>
+            <in>aimini.c</in>
+            <in>applejuice.c</in>
+            <in>armagetron.c</in>
+            <in>ayiya.c</in>
+            <in>battlefield.c</in>
+            <in>bgp.c</in>
+            <in>bittorrent.c</in>
+            <in>btlib.c</in>
+            <in>ciscovpn.c</in>
+            <in>citrix.c</in>
+            <in>collectd.c</in>
+            <in>corba.c</in>
+            <in>crossfire.c</in>
+            <in>dcerpc.c</in>
+            <in>dhcp.c</in>
+            <in>dhcpv6.c</in>
+            <in>directconnect.c</in>
+            <in>directdownloadlink.c</in>
+            <in>dns.c</in>
+            <in>dofus.c</in>
+            <in>dropbox.c</in>
+            <in>edonkey.c</in>
+            <in>fasttrack.c</in>
+            <in>fiesta.c</in>
+            <in>filetopia.c</in>
+            <in>florensia.c</in>
+            <in>ftp_control.c</in>
+            <in>ftp_data.c</in>
+            <in>gnutella.c</in>
+            <in>gtp.c</in>
+            <in>guildwars.c</in>
+            <in>h323.c</in>
+            <in>halflife2_and_mods.c</in>
+            <in>http.c</in>
+            <in>http_activesync.c</in>
+            <in>iax.c</in>
+            <in>icecast.c</in>
+            <in>imesh.c</in>
+            <in>ipp.c</in>
+            <in>irc.c</in>
+            <in>jabber.c</in>
+            <in>kerberos.c</in>
+            <in>kontiki.c</in>
+            <in>ldap.c</in>
+            <in>lotus_notes.c</in>
+            <in>mail_imap.c</in>
+            <in>mail_pop.c</in>
+            <in>mail_smtp.c</in>
+            <in>maplestory.c</in>
+            <in>mdns.c</in>
+            <in>meebo.c</in>
+            <in>megaco.c</in>
+            <in>mgcp.c</in>
+            <in>mms.c</in>
+            <in>msn.c</in>
+            <in>mssql.c</in>
+            <in>mysql.c</in>
+            <in>netbios.c</in>
+            <in>netflow.c</in>
+            <in>nfs.c</in>
+            <in>noe.c</in>
+            <in>non_tcp_udp.c</in>
+            <in>ntp.c</in>
+            <in>openft.c</in>
+            <in>openvpn.c</in>
+            <in>oracle.c</in>
+            <in>oscar.c</in>
+            <in>pando.c</in>
+            <in>pcanywhere.c</in>
+            <in>postgres.c</in>
+            <in>pplive.c</in>
+            <in>ppstream.c</in>
+            <in>pptp.c</in>
+            <in>qq.c</in>
+            <in>quake.c</in>
+            <in>radius.c</in>
+            <in>rdp.c</in>
+            <in>redis.c</in>
+            <in>rsync.c</in>
+            <in>rtcp.c</in>
+            <in>rtmp.c</in>
+            <in>rtp.c</in>
+            <in>rtsp.c</in>
+            <in>sflow.c</in>
+            <in>shoutcast.c</in>
+            <in>sip.c</in>
+            <in>skinny.c</in>
+            <in>skype.c</in>
+            <in>smb.c</in>
+            <in>snmp.c</in>
+            <in>socks4.c</in>
+            <in>socks5.c</in>
+            <in>socrates.c</in>
+            <in>sopcast.c</in>
+            <in>soulseek.c</in>
+            <in>spotify.c</in>
+            <in>ssdp.c</in>
+            <in>ssh.c</in>
+            <in>ssl.c</in>
+            <in>stealthnet.c</in>
+            <in>steam.c</in>
+            <in>stun.c</in>
+            <in>syslog.c</in>
+            <in>tcp_udp.c</in>
+            <in>tds.c</in>
+            <in>teamspeak.c</in>
+            <in>teamviewer.c</in>
+            <in>telegram.c</in>
+            <in>telnet.c</in>
+            <in>tftp.c</in>
+            <in>thunder.c</in>
+            <in>tor.c</in>
+            <in>tvants.c</in>
+            <in>tvuplayer.c</in>
+            <in>twitter.c</in>
+            <in>usenet.c</in>
+            <in>veohtv.c</in>
+            <in>vhua.c</in>
+            <in>viber.c</in>
+            <in>vmware.c</in>
+            <in>vnc.c</in>
+            <in>warcraft3.c</in>
+            <in>whoisdas.c</in>
+            <in>winmx.c</in>
+            <in>world_of_kung_fu.c</in>
+            <in>world_of_warcraft.c</in>
+            <in>xbox.c</in>
+            <in>xdmcp.c</in>
+            <in>yahoo.c</in>
+            <in>zattoo.c</in>
+            <in>zmq.c</in>
+          </df>
+          <df name="third_party">
+            <df name="src">
+              <in>ahocorasick.c</in>
+              <in>node.c</in>
+              <in>sort.c</in>
+            </df>
+          </df>
+          <in>ndpi_main.c</in>
+        </df>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+        <resolveSymbolicLinks>true</resolveSymbolicLinks>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir></buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir></preBuildCommandWorkingDir>
+          <preBuildCommand>./autogen.sh</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="example/Win32/pcapExample/pcapExample.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="example/ndpiReader.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="example/ndpiReader_11_5_15_removed vlan from flowV2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="example/ndpiReader_12_5_15_vlan fix + TCP_UDP frag.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="example/ps_analyzer_octopus.x.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="example/ps_analyzer_octopus_1_port.x.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="example/ps_analyzer_octopus_2_ports.x.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/lib/ndpi_main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/afp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/aimini.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/applejuice.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/armagetron.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/attic/flash.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/attic/ftp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/attic/manolito.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/attic/popo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/attic/secondlife.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ayiya.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/battlefield.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/bgp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/bittorrent.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/btlib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ciscovpn.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/citrix.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/collectd.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/corba.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/crossfire.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/dcerpc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/dhcp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/dhcpv6.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/directconnect.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/directdownloadlink.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/lib/protocols/dns.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/dofus.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/dropbox.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/edonkey.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/fasttrack.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/fiesta.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/filetopia.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/florensia.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ftp_control.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ftp_data.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/gnutella.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/gtp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/guildwars.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/h323.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/halflife2_and_mods.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/lib/protocols/http.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/http_activesync.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/lib/protocols/iax.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/icecast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/imesh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ipp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/irc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/jabber.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/kerberos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/kontiki.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ldap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/lotus_notes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/mail_imap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/mail_pop.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/mail_smtp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/maplestory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/mdns.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/meebo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/megaco.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/mgcp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/mms.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/msn.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/mssql.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/mysql.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/netbios.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/netflow.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/nfs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/noe.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/non_tcp_udp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ntp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/openft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/openvpn.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/oracle.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/oscar.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/pando.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/pcanywhere.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/postgres.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/pplive.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ppstream.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/pptp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/qq.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/quake.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/radius.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/rdp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/redis.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/rsync.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/rtcp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/rtmp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/rtp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/rtsp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/sflow.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/shoutcast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/sip.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/skinny.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/skype.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/smb.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/snmp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/socks4.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/socks5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/socrates.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/sopcast.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/soulseek.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/spotify.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ssdp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ssh.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/ssl.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/stealthnet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/steam.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/stun.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/syslog.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/tcp_udp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/tds.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/teamspeak.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/teamviewer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/telegram.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/telnet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/tftp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/thunder.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/tor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/tvants.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/tvuplayer.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/twitter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/usenet.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/veohtv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/vhua.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/viber.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/vmware.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/vnc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/warcraft3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/whoisdas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/winmx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/world_of_kung_fu.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/lib/protocols/world_of_warcraft.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/lib/protocols/xbox.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/xdmcp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/yahoo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/zattoo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/protocols/zmq.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/third_party/src/ahocorasick.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="src/lib/third_party/src/node.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/lib/third_party/src/sort.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

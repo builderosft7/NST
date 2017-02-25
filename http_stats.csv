@@ -1,0 +1,10 @@
+Traffic statistics,Value,Precentage
+HTTP GET Packets,932,3.04
+AVG HTTP GET Size,1361,0.00
+Num Of Flows With GET,0
+HTTP POST Packets,8,0.03
+AVG HTTP POST Size,953,0.00
+Num Of Flows With POST,0
+HTTP HEAD Packets,2,0.01
+AVG HTTP HEAD Size,447,0.00
+Num Of Flows With HEAD,0
