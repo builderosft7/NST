@@ -20,7 +20,7 @@
 #define HAVE_PTHREAD 1
 
 /* Have PTHREAD_PRIO_INHERIT. */
-/* #undef HAVE_PTHREAD_PRIO_INHERIT */
+#define HAVE_PTHREAD_PRIO_INHERIT 1
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
@@ -48,7 +48,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Last SVN change */
-#define NDPI_SVN_DATE "Sat Feb 25 14:08:03 IST 2017"
+#define NDPI_SVN_DATE "Fri Mar 24 08:16:54 EDT 2017"
 
 /* SVN Release */
 #define NDPI_SVN_RELEASE "r1.5.2"
@@ -67,6 +67,9 @@
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "libndpi"
+
+/* Define to the home page for this package. */
+#define PACKAGE_URL ""
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "1.5.2"
